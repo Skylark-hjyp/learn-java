@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mybatis.datasource.mapper.MeetMapper2">
+
+    <resultMap id="meetAttachResultMap" type="com.example.mybatis.datasource.entity.Meet">
+        <id property="meetId" column="meet_id"></id>
+        <result property="meetTime" column="meet_time"></result>
+        <result property="meetPlace" column="meet_place"></result>
+        <result property="meetTheme" column="meet_theme"></result>
+        <result property="meetReporter" column="meet_reporter"></result>
+        <result property="meetReporterId" column="meet_reportor_id"></result>
+        <result property="meetBelongRole" column="meet_belong_role"></result>
+        <result property="lastUpdatetime" column="last_updatetime"></result>
+        <!-- 使用collection的分阶段查询-->
+        <collection property="attachs"
+                    select="com.example.mybatis.datasource.mapper.AttachMapper.queryById"
+                    column="meet_id">
+        </collection>
+
+    </resultMap>
+
+    <!-- 根据id查询会议 -->
+    <select id="queryById" resultMap="meetAttachResultMap">
+        select * from meettable where meet_id = #{id}
+    </select>
+</mapper>

@@ -1,0 +1,15 @@
+spring:
+  # datasource 数据源配置内容
+  datasource:
+    url: jdbc:mysql://localhost:3306/meetsystem?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: hejianfei1998
+
+# mybatis 配置内容
+mybatis:
+#  config-location: classpath:mybatis-config.xml # 配置 MyBatis 配置文件路径
+  mapper-locations: classpath:mapper/*.xml # 配置 Mapper XML 地址
+  type-aliases-package: com.example.mybatis.entity # 配置数据库实体包路径
+  configuration:
+    map-underscore-to-camel-case: true  # 开启驼峰

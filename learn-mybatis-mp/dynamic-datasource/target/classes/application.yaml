@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    # dynamic-datasource-spring-boot-starter 动态数据源的配置内容
+    dynamic:
+      primary: local # 设置默认的数据源或者数据源组，默认值即为 master
+      datasource:
+        # 远程 数据源配置
+        remote:
+          url: jdbc:mysql://43.143.33.171:3306/meetsystem?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          username: root
+          password: passis19931001
+        # 本地数据源配置
+        local:
+          url: jdbc:mysql://localhost:3306/meetsystem?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          username: root
+          password: hejianfei1998
+
+# mybatis 配置内容
+mybatis:
+#  config-location: classpath:mybatis-config.xml # 配置 MyBatis 配置文件路径
+  mapper-locations: classpath:mapper/*.xml # 配置 Mapper XML 地址
+  type-aliases-package: com.example.mybatis.datasource.entity # 配置数据库实体包路径
+  configuration:
+    map-underscore-to-camel-case: true

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.mybatis.TestMeetMapper
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.921 s <<< FAILURE! - in com.example.mybatis.TestMeetMapper
+testQueryByMeet  Time elapsed: 0.276 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.example.mybatis.TestMeetMapper.testQueryByMeet(TestMeetMapper.java:23)
+

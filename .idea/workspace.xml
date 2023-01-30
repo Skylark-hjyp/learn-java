@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3832ec0-37e2-4350-9ed3-12f00e989e62" name="Changes" comment="">
+    <list default="true" id="b3832ec0-37e2-4350-9ed3-12f00e989e62" name="Changes" comment="修改README文件">
+      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/Mybatis-基础的查询参数和查询结果封装.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/Springboot整合Mybatis.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/多数据源.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/validation/数据校验.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,8 +266,16 @@
       <workItem from="1674992185059" duration="6344000" />
       <workItem from="1675002759963" duration="3060000" />
       <workItem from="1675043106379" duration="13605000" />
-      <workItem from="1675075207292" duration="2505000" />
+      <workItem from="1675075207292" duration="4540000" />
     </task>
+    <task id="LOCAL-00001" summary="修改README文件">
+      <created>1675079617175</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675079617175</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +291,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改README文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改README文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

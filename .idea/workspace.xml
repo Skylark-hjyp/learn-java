@@ -5,11 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3832ec0-37e2-4350-9ed3-12f00e989e62" name="Changes" comment="修改README文件">
-      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/Mybatis-基础的查询参数和查询结果封装.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/Springboot整合Mybatis.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/多数据源.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/validation/数据校验.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/Sharding-jdbc 分库分表.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/main/java/com/example/mybatis/sharding/ShardingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/main/java/com/example/mybatis/sharding/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/main/java/com/example/mybatis/sharding/entity/OrderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/main/java/com/example/mybatis/sharding/mapper/OrderConfigMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/main/java/com/example/mybatis/sharding/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/main/resources/mapper/OrderConfigMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/test/java/com/example/mybatis/sharding/TestOrderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/test/java/com/example/mybatis/sharding/TestOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-redis/src/main/java/com/example/redis/RedisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-rabbitMQ/src/main/java/com/example/learnrabbitmq/LearnRabbitMqApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn-rabbitMQ/src/main/java/com/example/learnrabbitmq/LearnRabbitMqApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +65,9 @@
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2JS6hdRqlzALNea1QKO3L7SVKCk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,7 +88,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "spring.configuration.checksum": "4fe434fe98433d5b192b645eb256b5cd"
+    "spring.configuration.checksum": "f08d6aa6fe20cea6003e0e9f8cb7f2ae"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -89,7 +108,7 @@
       <recent name="com.example.mybatis.datasource.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NIOTest">
+  <component name="RunManager" selected="JUnit.TestOrderMapper.testInsert">
     <configuration name="NIOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.javabasic.io.NIOTest" />
       <module name="java-basic" />
@@ -103,62 +122,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.Test" />
-      <module name="learn-mybatis-mp" />
+    <configuration name="TestOrderConfig.testSelectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sharding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.mybatis.*" />
+          <option name="PATTERN" value="com.example.mybatis.sharding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMeetMapper.testQueryAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learn-mybatis-mp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.mybatis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.TestMeetMapper" />
-      <option name="METHOD_NAME" value="testQueryAll" />
+      <option name="PACKAGE_NAME" value="com.example.mybatis.sharding" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.sharding.TestOrderConfig" />
+      <option name="METHOD_NAME" value="testSelectById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMeetMapper.testQueryById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dynamic-datasource" />
+    <configuration name="TestOrderMapper.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sharding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.mybatis.datasource.*" />
+          <option name="PATTERN" value="com.example.mybatis.sharding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.mybatis.datasource" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.datasource.TestMeetMapper" />
-      <option name="METHOD_NAME" value="testQueryById" />
+      <option name="PACKAGE_NAME" value="com.example.mybatis.sharding" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.sharding.TestOrderMapper" />
+      <option name="METHOD_NAME" value="testInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMeetMapper.testQueryByIdRMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learn-mybatis-mp" />
+    <configuration name="TestOrderMapper.testSelectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sharding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.mybatis.*" />
+          <option name="PATTERN" value="com.example.mybatis.sharding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.TestMeetMapper" />
-      <option name="METHOD_NAME" value="testQueryByIdRMap" />
+      <option name="PACKAGE_NAME" value="com.example.mybatis.sharding" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.sharding.TestOrderMapper" />
+      <option name="METHOD_NAME" value="testSelectById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOrderMapper.testSelectListByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sharding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mybatis.sharding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.mybatis.sharding" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.sharding.TestOrderMapper" />
+      <option name="METHOD_NAME" value="testSelectListByUserId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -220,6 +242,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShardingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sharding" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.mybatis.sharding.ShardingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ValidationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="validation" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.validation.ValidationApplication" />
@@ -229,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestOrderMapper.testInsert" />
+        <item itemvalue="JUnit.TestOrderMapper.testSelectListByUserId" />
+        <item itemvalue="JUnit.TestOrderMapper.testSelectById" />
+        <item itemvalue="JUnit.TestOrderConfig.testSelectById" />
         <item itemvalue="Application.NIOTest" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.TestMeetMapper.testQueryById" />
-        <item itemvalue="JUnit.TestMeetMapper.testQueryByIdRMap" />
-        <item itemvalue="JUnit.TestMeetMapper.testQueryAll" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +295,8 @@
       <workItem from="1674992185059" duration="6344000" />
       <workItem from="1675002759963" duration="3060000" />
       <workItem from="1675043106379" duration="13605000" />
-      <workItem from="1675075207292" duration="4540000" />
+      <workItem from="1675075207292" duration="5629000" />
+      <workItem from="1675412458148" duration="12649000" />
     </task>
     <task id="LOCAL-00001" summary="修改README文件">
       <created>1675079617175</created>

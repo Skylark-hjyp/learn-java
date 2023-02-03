@@ -14,6 +14,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>dynamic-datasource</module>
+        <module>sharding</module>
     </modules>
 
     <properties>

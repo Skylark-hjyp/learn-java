@@ -6,6 +6,7 @@
         <module>custom-starter</module>
         <module>learn-springboot</module>
         <module>learn-mybatis-mp</module>
+        <module>learn-redis</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

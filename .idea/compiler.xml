@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java-basic" />
         <module name="custom-starter" />
         <module name="learn-rabbitMQ" />
+        <module name="learn-redis" />
+        <module name="java-basic" />
         <module name="validation" />
         <module name="dynamic-datasource" />
+        <module name="sharding" />
         <module name="distribute-session-redis" />
       </profile>
     </annotationProcessing>
@@ -24,7 +26,9 @@
       <module name="java-basic" options="-parameters" />
       <module name="learn-mybatis-mp" options="" />
       <module name="learn-rabbitMQ" options="-parameters" />
+      <module name="learn-redis" options="-parameters" />
       <module name="learn-springboot" options="" />
+      <module name="sharding" options="-parameters" />
       <module name="validation" options="-parameters" />
     </option>
   </component>

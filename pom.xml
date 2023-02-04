@@ -7,6 +7,8 @@
         <module>learn-springboot</module>
         <module>learn-mybatis-mp</module>
         <module>learn-redis</module>
+        <module>learn-redis/redisson</module>
+        <module>learn-springboot/springsecurity</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -40,11 +42,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <!--    RabbitMQ 依赖    -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-amqp</artifactId>
-        </dependency>
+
     </dependencies>
 
     <build>

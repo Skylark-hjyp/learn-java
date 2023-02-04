@@ -11,6 +11,8 @@
         <module name="learn-rabbitMQ" />
         <module name="learn-redis" />
         <module name="java-basic" />
+        <module name="redisson" />
+        <module name="springsecurity" />
         <module name="validation" />
         <module name="dynamic-datasource" />
         <module name="sharding" />
@@ -28,7 +30,9 @@
       <module name="learn-rabbitMQ" options="-parameters" />
       <module name="learn-redis" options="-parameters" />
       <module name="learn-springboot" options="" />
+      <module name="redisson" options="-parameters" />
       <module name="sharding" options="-parameters" />
+      <module name="springsecurity" options="-parameters" />
       <module name="validation" options="-parameters" />
     </option>
   </component>

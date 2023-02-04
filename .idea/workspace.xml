@@ -5,26 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3832ec0-37e2-4350-9ed3-12f00e989e62" name="Changes" comment="修改README文件">
-      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/Sharding-jdbc 分库分表.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/main/java/com/example/mybatis/sharding/ShardingApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/main/java/com/example/mybatis/sharding/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/main/java/com/example/mybatis/sharding/entity/OrderConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/main/java/com/example/mybatis/sharding/mapper/OrderConfigMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/main/java/com/example/mybatis/sharding/mapper/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/main/resources/mapper/OrderConfigMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/test/java/com/example/mybatis/sharding/TestOrderConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/src/test/java/com/example/mybatis/sharding/TestOrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-redis/src/main/java/com/example/redis/RedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-redis/redisson/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-redis/redisson/src/main/java/com/example/redis/redisson/RedissonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-redis/redisson/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-redis/redisson/src/test/java/com/example/redis/redisson/TestRedisson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-redis/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-redis/src/test/java/com/example/redis/TestRedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-redis/使用Spring Redis Data操作Redis数据库.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/src/main/java/com/example/springsecurity/SpringSecurityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/src/main/java/com/example/springsecurity/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/src/main/java/com/example/springsecurity/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/src/main/java/com/example/springsecurity/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-rabbitMQ/src/main/java/com/example/learnrabbitmq/LearnRabbitMqApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn-rabbitMQ/src/main/java/com/example/learnrabbitmq/LearnRabbitMqApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-rabbitMQ/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-rabbitMQ/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-redis/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +80,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "13",
     "last_opened_file_path": "E:/Code/server/learn-java",
@@ -87,8 +88,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "spring.configuration.checksum": "f08d6aa6fe20cea6003e0e9f8cb7f2ae"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
+    "spring.configuration.checksum": "8462f384507830cc894fa01fdba3f0d7"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -108,36 +109,7 @@
       <recent name="com.example.mybatis.datasource.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestOrderMapper.testInsert">
-    <configuration name="NIOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.javabasic.io.NIOTest" />
-      <module name="java-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.javabasic.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestOrderConfig.testSelectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sharding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.mybatis.sharding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.mybatis.sharding" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.sharding.TestOrderConfig" />
-      <option name="METHOD_NAME" value="testSelectById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.SpringSecurityApplication">
     <configuration name="TestOrderMapper.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sharding" />
       <extension name="coverage">
@@ -154,33 +126,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOrderMapper.testSelectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sharding" />
+    <configuration name="TestRedis.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn-redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.mybatis.sharding.*" />
+          <option name="PATTERN" value="com.example.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.mybatis.sharding" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.sharding.TestOrderMapper" />
-      <option name="METHOD_NAME" value="testSelectById" />
+      <option name="PACKAGE_NAME" value="com.example.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.example.redis.TestRedis" />
+      <option name="METHOD_NAME" value="testAdd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOrderMapper.testSelectListByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sharding" />
+    <configuration name="TestRedisson.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redisson" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.mybatis.sharding.*" />
+          <option name="PATTERN" value="com.example.redis.redisson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.mybatis.sharding" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.sharding.TestOrderMapper" />
-      <option name="METHOD_NAME" value="testSelectListByUserId" />
+      <option name="PACKAGE_NAME" value="com.example.redis.redisson" />
+      <option name="MAIN_CLASS_NAME" value="com.example.redis.redisson.TestRedisson" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRedisson.testRateLimiter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redisson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.redis.redisson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.redis.redisson" />
+      <option name="MAIN_CLASS_NAME" value="com.example.redis.redisson.TestRedisson" />
+      <option name="METHOD_NAME" value="testRateLimiter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -242,9 +230,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="learn-redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.redis.RedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedissonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redisson" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.redis.redisson.RedissonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShardingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sharding" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.mybatis.sharding.ShardingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springsecurity" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springsecurity.SpringSecurityApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springsecurity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -258,11 +273,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpringSecurityApplication" />
+        <item itemvalue="JUnit.TestRedisson.testRateLimiter" />
+        <item itemvalue="JUnit.TestRedisson.test" />
+        <item itemvalue="JUnit.TestRedis.testAdd" />
         <item itemvalue="JUnit.TestOrderMapper.testInsert" />
-        <item itemvalue="JUnit.TestOrderMapper.testSelectListByUserId" />
-        <item itemvalue="JUnit.TestOrderMapper.testSelectById" />
-        <item itemvalue="JUnit.TestOrderConfig.testSelectById" />
-        <item itemvalue="Application.NIOTest" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +311,8 @@
       <workItem from="1675002759963" duration="3060000" />
       <workItem from="1675043106379" duration="13605000" />
       <workItem from="1675075207292" duration="5629000" />
-      <workItem from="1675412458148" duration="12649000" />
+      <workItem from="1675412458148" duration="13249000" />
+      <workItem from="1675483505909" duration="17625000" />
     </task>
     <task id="LOCAL-00001" summary="修改README文件">
       <created>1675079617175</created>

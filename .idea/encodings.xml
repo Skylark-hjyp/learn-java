@@ -15,7 +15,11 @@
     <file url="file://$PROJECT_DIR$/learn-spring/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/learn-springboot/distribute-session-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/learn-springboot/mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learn-springboot/quartz/quartz-cluster/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learn-springboot/quartz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learn-springboot/quartz/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/learn-springboot/shiro/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learn-springboot/spring-task/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/learn-springboot/springsecurity/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/learn-springboot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/learn-springboot/src/main/resources" charset="UTF-8" />

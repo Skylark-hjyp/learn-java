@@ -8,16 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="custom-starter" />
-        <module name="learn-rabbitMQ" />
         <module name="learn-redis" />
-        <module name="shiro" />
-        <module name="java-basic" />
         <module name="redisson" />
         <module name="springsecurity" />
-        <module name="validation" />
+        <module name="quartz-cluster" />
         <module name="dynamic-datasource" />
         <module name="sharding" />
         <module name="distribute-session-redis" />
+        <module name="learn-rabbitMQ" />
+        <module name="shiro" />
+        <module name="spring-task" />
+        <module name="java-basic" />
+        <module name="validation" />
       </profile>
     </annotationProcessing>
   </component>
@@ -31,9 +33,12 @@
       <module name="learn-rabbitMQ" options="-parameters" />
       <module name="learn-redis" options="-parameters" />
       <module name="learn-springboot" options="" />
+      <module name="quartz" options="" />
+      <module name="quartz-cluster" options="-parameters" />
       <module name="redisson" options="-parameters" />
       <module name="sharding" options="-parameters" />
       <module name="shiro" options="-parameters" />
+      <module name="spring-task" options="-parameters" />
       <module name="springsecurity" options="-parameters" />
       <module name="validation" options="-parameters" />
     </option>

@@ -10,6 +10,7 @@
         <module>learn-redis/redisson</module>
         <module>learn-springboot/springsecurity</module>
         <module>learn-springboot/shiro</module>
+        <module>learn-springboot/spring-task</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

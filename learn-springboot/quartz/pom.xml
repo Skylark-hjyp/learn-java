@@ -3,18 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>learning-java</artifactId>
+        <artifactId>learn-springboot</artifactId>
         <groupId>com.example</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>learn-springboot</artifactId>
+    <groupId>com.example.quartz</groupId>
+    <artifactId>quartz</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>distribute-session-redis</module>
-        <module>validation</module>
-        <module>quartz</module>
+        <module>quartz-cluster</module>
     </modules>
 
     <properties>
@@ -24,22 +23,11 @@
     </properties>
 
     <dependencies>
-        <!-- 保证 Spring AOP 相关的依赖包 -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-aspects</artifactId>
-        </dependency>
-        <!--        -->
+        <!-- 实现对 Quartz 的自动化配置 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-validation</artifactId>
+            <artifactId>spring-boot-starter-quartz</artifactId>
         </dependency>
-
-        <!--        <dependency>-->
-<!--            <groupId>com.example</groupId>-->
-<!--            <artifactId>custom-starter</artifactId>-->
-<!--            <version>0.0.1-SNAPSHOT</version>-->
-<!--        </dependency>-->
     </dependencies>
 
 </project>

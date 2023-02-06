@@ -5,26 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3832ec0-37e2-4350-9ed3-12f00e989e62" name="Changes" comment="修改README文件">
-      <change afterPath="$PROJECT_DIR$/learn-redis/redisson/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-redis/redisson/src/main/java/com/example/redis/redisson/RedissonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-redis/redisson/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-redis/redisson/src/test/java/com/example/redis/redisson/TestRedisson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-redis/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-redis/src/test/java/com/example/redis/TestRedis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-redis/使用Spring Redis Data操作Redis数据库.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/src/main/java/com/example/springsecurity/SpringSecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/src/main/java/com/example/springsecurity/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/src/main/java/com/example/springsecurity/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/src/main/java/com/example/springsecurity/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/Shiro权限控制.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/ShiroApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/config/OAuth2Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/config/OAuth2Realm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/config/OAuth2Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/controller/SysLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/controller/SysMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/entity/SysMenuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/entity/SysRoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/entity/SysRoleMenuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/entity/SysUserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/entity/SysUserRoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/entity/SysUserTokenEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/mapper/SysMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/mapper/SysUserTokenMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/service/SysMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/service/SysUserTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/service/impl/SysUserTokenServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/test/java/com/example/springboot/shiro/TestUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-starter/target/custom-starter-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/custom-starter/target/custom-starter-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-starter/target/custom-starter-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/custom-starter/target/custom-starter-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/custom-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/dynamic-datasource-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/dynamic-datasource-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/dynamic-datasource-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/dynamic-datasource-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-rabbitMQ/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-rabbitMQ/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/sharding-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/sharding-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/sharding-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/sharding-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/test-classes/com/example/mybatis/sharding/TestOrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/test-classes/com/example/mybatis/sharding/TestOrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-redis/redisson/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/learn-redis/redisson/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-redis/target/learn-redis-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/learn-redis/target/learn-redis-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-redis/target/learn-redis-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/learn-redis/target/learn-redis-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/learn-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-springboot/distribute-session-redis/target/distribute-session-redis-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/distribute-session-redis/target/distribute-session-redis-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-springboot/distribute-session-redis/target/distribute-session-redis-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/distribute-session-redis/target/distribute-session-redis-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-springboot/distribute-session-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/distribute-session-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-springboot/springsecurity/src/main/java/com/example/springsecurity/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/src/main/java/com/example/springsecurity/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-springboot/springsecurity/target/classes/com/example/springsecurity/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/target/classes/com/example/springsecurity/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-springboot/springsecurity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-springboot/springsecurity/target/springsecurity-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/target/springsecurity-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-springboot/springsecurity/target/springsecurity-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/target/springsecurity-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-springboot/validation/src/main/java/com/example/validation/ValidationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/validation/src/main/java/com/example/validation/ValidationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-springboot/validation/target/classes/com/example/validation/ValidationApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/validation/target/classes/com/example/validation/ValidationApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-springboot/validation/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/validation/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-springboot/validation/target/validation-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/validation/target/validation-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-springboot/validation/target/validation-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/validation/target/validation-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,10 +130,13 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
-    "spring.configuration.checksum": "8462f384507830cc894fa01fdba3f0d7"
+    "spring.configuration.checksum": "37686d9c7fae8a8773c7a9f339825bd3"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.springboot.shiro.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Code\server\learning-java\learn-mybatis-mp\dynamic-datasource\src\main\resources\mapper" />
       <recent name="E:\Code\server\learning-java\learn-mybatis-mp\src\main\resources\mapper" />
@@ -109,39 +153,7 @@
       <recent name="com.example.mybatis.datasource.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringSecurityApplication">
-    <configuration name="TestOrderMapper.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sharding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.mybatis.sharding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.mybatis.sharding" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.sharding.TestOrderMapper" />
-      <option name="METHOD_NAME" value="testInsert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRedis.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learn-redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.redis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.redis" />
-      <option name="MAIN_CLASS_NAME" value="com.example.redis.TestRedis" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ShiroApplication">
     <configuration name="TestRedisson.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="redisson" />
       <extension name="coverage">
@@ -169,6 +181,22 @@
       <option name="PACKAGE_NAME" value="com.example.redis.redisson" />
       <option name="MAIN_CLASS_NAME" value="com.example.redis.redisson.TestRedisson" />
       <option name="METHOD_NAME" value="testRateLimiter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserService.testGetUserPermissions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot.shiro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springboot.shiro" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot.shiro.TestUserService" />
+      <option name="METHOD_NAME" value="testGetUserPermissions" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -251,6 +279,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shiro" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springboot.shiro.ShiroApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot.shiro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springsecurity" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springsecurity.SpringSecurityApplication" />
@@ -273,11 +314,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ShiroApplication" />
+        <item itemvalue="JUnit.TestUserService.testGetUserPermissions" />
         <item itemvalue="Spring Boot.SpringSecurityApplication" />
         <item itemvalue="JUnit.TestRedisson.testRateLimiter" />
         <item itemvalue="JUnit.TestRedisson.test" />
-        <item itemvalue="JUnit.TestRedis.testAdd" />
-        <item itemvalue="JUnit.TestOrderMapper.testInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -313,6 +354,8 @@
       <workItem from="1675075207292" duration="5629000" />
       <workItem from="1675412458148" duration="13249000" />
       <workItem from="1675483505909" duration="17625000" />
+      <workItem from="1675579942516" duration="18710000" />
+      <workItem from="1675651340123" duration="10321000" />
     </task>
     <task id="LOCAL-00001" summary="修改README文件">
       <created>1675079617175</created>
@@ -404,6 +447,36 @@
           <url>file://$PROJECT_DIR$/java-basic/src/main/java/com/example/javabasic/io/NIOTest.java</url>
           <line>12</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/service/impl/SysUserServiceImpl.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/config/OAuth2Filter.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/config/OAuth2Realm.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/config/OAuth2Realm.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/config/OAuth2Filter.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/config/OAuth2Realm.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -9,6 +9,7 @@
         <module>learn-redis</module>
         <module>learn-redis/redisson</module>
         <module>learn-springboot/springsecurity</module>
+        <module>learn-springboot/shiro</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

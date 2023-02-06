@@ -1,5 +1,6 @@
 package com.example.validation;
 
+import com.example.validation.entity.User;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -7,6 +8,5 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ValidationApplication {
     public static void main(String[] args) {
         SpringApplication.run(ValidationApplication.class, args);
-        // System.out.println("Hello world!");
     }
 }

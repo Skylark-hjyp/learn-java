@@ -10,6 +10,7 @@
         <module name="custom-starter" />
         <module name="learn-rabbitMQ" />
         <module name="learn-redis" />
+        <module name="shiro" />
         <module name="java-basic" />
         <module name="redisson" />
         <module name="springsecurity" />
@@ -32,6 +33,7 @@
       <module name="learn-springboot" options="" />
       <module name="redisson" options="-parameters" />
       <module name="sharding" options="-parameters" />
+      <module name="shiro" options="-parameters" />
       <module name="springsecurity" options="-parameters" />
       <module name="validation" options="-parameters" />
     </option>

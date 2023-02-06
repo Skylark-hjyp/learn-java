@@ -30,11 +30,11 @@ spring:
           database-strategy:
             inline:
               algorithm-expression: ds-orders-$->{user_id % 2}
-              sharding-column: user_id
+              sharding-column: user_id  # 拆分数据库所依据的列
           table-strategy:
             inline:
               algorithm-expression: orders_$->{user_id % 8}
-              sharding-column: user_id
+              sharding-column: user_id  # 拆分表所依据的列
         # order_config 表配置
         order_config:
           actualDataNodes: ds-orders-0.order_config # 仅映射到 ds-orders-0 数据源的 order_config 表

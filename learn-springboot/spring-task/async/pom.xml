@@ -3,19 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>learning-java</artifactId>
-        <groupId>com.example</groupId>
+        <artifactId>spring-task</artifactId>
+        <groupId>com.example.springtask</groupId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example.springtask</groupId>
-    <artifactId>spring-task</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>async</module>
-    </modules>
+    <groupId>com.example.springtask.async</groupId>
+    <artifactId>async</artifactId>
 
     <properties>
         <maven.compiler.source>13</maven.compiler.source>

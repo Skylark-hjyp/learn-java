@@ -13,8 +13,9 @@
 * 🌱 SpringBoot
 * * [数据校验](https://github.com/Tomoko-hjf/learn-java/blob/main/learn-springboot/validation/%E6%95%B0%E6%8D%AE%E6%A0%A1%E9%AA%8C.md)
 * * [Shiro权限控制](https://github.com/Tomoko-hjf/learn-java/blob/main/learn-springboot/shiro/Shiro%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6.md) 
-* * [Spring Task 定时任务]()
-* * [Quartz定时任务]()
+* * [Spring Task 定时任务](https://github.com/Tomoko-hjf/learn-java/blob/main/learn-springboot/spring-task/Spring%20Task%20%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1.md)
+* * [Quartz定时任务](https://github.com/Tomoko-hjf/learn-java/blob/main/learn-springboot/quartz/Quartz%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1.md)
+* * [异步函数]()
 * 🏷️ ️MySQL
 * 🏷️ Mybatis && Mybatis-plus
 * * [Springboot整合Mybatis](https://github.com/Tomoko-hjf/learn-java/blob/main/learn-mybatis-mp/Springboot%E6%95%B4%E5%90%88Mybatis.md)
@@ -36,6 +37,7 @@
 * 🚀定时任务
 * 🚀WebSocket
 * 🚀IM 即时通信
+* 线程池
 
 ## 🍻 致谢
-芋道源码 [https://www.iocoder.cn/](https://www.iocoder.cn/)
+* 芋道源码 [https://www.iocoder.cn/](https://www.iocoder.cn/)

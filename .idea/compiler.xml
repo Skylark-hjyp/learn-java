@@ -15,9 +15,9 @@
         <module name="dynamic-datasource" />
         <module name="sharding" />
         <module name="distribute-session-redis" />
+        <module name="async" />
         <module name="learn-rabbitMQ" />
         <module name="shiro" />
-        <module name="spring-task" />
         <module name="java-basic" />
         <module name="validation" />
       </profile>
@@ -25,6 +25,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="async" options="-parameters" />
       <module name="custom-starter" options="-parameters" />
       <module name="distribute-session-redis" options="-parameters" />
       <module name="dynamic-datasource" options="-parameters" />
@@ -38,7 +39,7 @@
       <module name="redisson" options="-parameters" />
       <module name="sharding" options="-parameters" />
       <module name="shiro" options="-parameters" />
-      <module name="spring-task" options="-parameters" />
+      <module name="spring-task" options="" />
       <module name="springsecurity" options="-parameters" />
       <module name="validation" options="-parameters" />
     </option>

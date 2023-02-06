@@ -1,6 +1,0 @@
-com\example\mybatis\datasource\mapper\MeetMapper.class
-com\example\mybatis\datasource\mapper\MeetMapper2.class
-com\example\mybatis\datasource\DataSourceApplication.class
-com\example\mybatis\datasource\entity\Meet.class
-com\example\mybatis\datasource\entity\Attach.class
-com\example\mybatis\datasource\mapper\AttachMapper.class

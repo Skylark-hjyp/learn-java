@@ -5,68 +5,83 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3832ec0-37e2-4350-9ed3-12f00e989e62" name="Changes" comment="修改README文件">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/Shiro权限控制.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/ShiroApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/config/OAuth2Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/config/OAuth2Realm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/config/OAuth2Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/config/ShiroConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/controller/SysLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/controller/SysMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/entity/SysMenuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/entity/SysRoleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/entity/SysRoleMenuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/entity/SysUserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/entity/SysUserRoleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/entity/SysUserTokenEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/mapper/SysMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/mapper/SysUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/mapper/SysUserTokenMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/service/SysMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/service/SysUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/service/SysUserTokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/service/impl/SysMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/service/impl/SysUserTokenServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/shiro/src/test/java/com/example/springboot/shiro/TestUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-starter/target/custom-starter-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/custom-starter/target/custom-starter-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-starter/target/custom-starter-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/custom-starter/target/custom-starter-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/custom-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/dynamic-datasource-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/dynamic-datasource-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/dynamic-datasource-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/dynamic-datasource-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/sharding-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/sharding-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/sharding-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/sharding-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/test-classes/com/example/mybatis/sharding/TestOrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/test-classes/com/example/mybatis/sharding/TestOrderMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-redis/redisson/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/learn-redis/redisson/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-redis/target/learn-redis-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/learn-redis/target/learn-redis-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-redis/target/learn-redis-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/learn-redis/target/learn-redis-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/learn-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-springboot/distribute-session-redis/target/distribute-session-redis-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/distribute-session-redis/target/distribute-session-redis-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-springboot/distribute-session-redis/target/distribute-session-redis-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/distribute-session-redis/target/distribute-session-redis-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-springboot/distribute-session-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/distribute-session-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-springboot/springsecurity/src/main/java/com/example/springsecurity/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/src/main/java/com/example/springsecurity/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-springboot/springsecurity/target/classes/com/example/springsecurity/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/target/classes/com/example/springsecurity/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-springboot/springsecurity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-springboot/springsecurity/target/springsecurity-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/target/springsecurity-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-springboot/springsecurity/target/springsecurity-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/springsecurity/target/springsecurity-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-springboot/validation/src/main/java/com/example/validation/ValidationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/validation/src/main/java/com/example/validation/ValidationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-springboot/validation/target/classes/com/example/validation/ValidationApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/validation/target/classes/com/example/validation/ValidationApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-springboot/validation/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/validation/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-springboot/validation/target/validation-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/validation/target/validation-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-springboot/validation/target/validation-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/validation/target/validation-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-starter/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-starter/target/classes/META-INF/spring.factory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-starter/target/classes/com/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-starter/target/classes/com/example/autoconfigure/ServerAutoConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-starter/target/classes/com/example/autoconfigure/ServerProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-starter/target/custom-starter-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-starter/target/custom-starter-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/classes/com/example/mybatis/datasource/DataSourceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/classes/com/example/mybatis/datasource/entity/Attach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/classes/com/example/mybatis/datasource/entity/Meet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/classes/com/example/mybatis/datasource/mapper/AttachMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/classes/com/example/mybatis/datasource/mapper/MeetMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/classes/com/example/mybatis/datasource/mapper/MeetMapper2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/classes/mapper/AttachMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/classes/mapper/MeetMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/classes/mapper/MeetMapper2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/dynamic-datasource-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/dynamic-datasource-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/target/test-classes/com/example/mybatis/datasource/TestMeetMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/classes/com/example/mybatis/sharding/ShardingApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/classes/com/example/mybatis/sharding/entity/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/classes/com/example/mybatis/sharding/entity/OrderConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/classes/com/example/mybatis/sharding/mapper/OrderConfigMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/classes/com/example/mybatis/sharding/mapper/OrderMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/classes/mapper/OrderConfigMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/classes/mapper/OrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/sharding-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/sharding-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/test-classes/com/example/mybatis/sharding/TestOrderConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/sharding/target/test-classes/com/example/mybatis/sharding/TestOrderMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/target/classes/com/example/mybatis/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/target/classes/com/example/mybatis/entity/Attach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/target/classes/com/example/mybatis/entity/Meet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/target/classes/com/example/mybatis/mapper/AttachMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/target/classes/com/example/mybatis/mapper/MeetMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/target/classes/mapper/AttachMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/target/classes/mapper/MeetMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/target/learn-mybatis-mp-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/target/learn-mybatis-mp-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/target/surefire-reports/TEST-com.example.mybatis.TestMeetMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/target/surefire-reports/com.example.mybatis.TestMeetMapper.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-mybatis-mp/target/test-classes/com/example/mybatis/TestMeetMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-redis/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-redis/target/classes/com/example/redis/RedisApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-redis/target/learn-redis-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-redis/target/learn-redis-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-redis/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-redis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-redis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-redis/target/test-classes/com/example/redis/TestRedis.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,7 +370,7 @@
       <workItem from="1675412458148" duration="13249000" />
       <workItem from="1675483505909" duration="17625000" />
       <workItem from="1675579942516" duration="18710000" />
-      <workItem from="1675651340123" duration="10321000" />
+      <workItem from="1675651340123" duration="12153000" />
     </task>
     <task id="LOCAL-00001" summary="修改README文件">
       <created>1675079617175</created>

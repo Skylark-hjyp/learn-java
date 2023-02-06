@@ -1,5 +1,0 @@
-com\example\mybatis\sharding\entity\OrderConfig.class
-com\example\mybatis\sharding\entity\Order.class
-com\example\mybatis\sharding\mapper\OrderConfigMapper.class
-com\example\mybatis\sharding\ShardingApplication.class
-com\example\mybatis\sharding\mapper\OrderMapper.class

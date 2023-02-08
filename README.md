@@ -15,7 +15,7 @@
 * * [Shiro权限控制](https://github.com/Tomoko-hjf/learn-java/blob/main/learn-springboot/shiro/Shiro%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6.md) 
 * * [Spring Task 定时任务](https://github.com/Tomoko-hjf/learn-java/blob/main/learn-springboot/spring-task/Spring%20Task%20%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1.md)
 * * [Quartz定时任务](https://github.com/Tomoko-hjf/learn-java/blob/main/learn-springboot/quartz/Quartz%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1.md)
-* * [异步函数]()
+* * [异步函数](https://github.com/Tomoko-hjf/learn-java/blob/main/learn-springboot/spring-task/async/%E5%BC%82%E6%AD%A5%E5%87%BD%E6%95%B0.md)
 * 🏷️ ️MySQL
 * 🏷️ Mybatis && Mybatis-plus
 * * [Springboot整合Mybatis](https://github.com/Tomoko-hjf/learn-java/blob/main/learn-mybatis-mp/Springboot%E6%95%B4%E5%90%88Mybatis.md)
@@ -25,6 +25,7 @@
 * 🏷️ ️Redis
 * * [使用Spring Data Redis操作Redis数据库](https://github.com/Tomoko-hjf/learn-java/blob/main/learn-redis/%E4%BD%BF%E7%94%A8Spring%20Redis%20Data%E6%93%8D%E4%BD%9CRedis%E6%95%B0%E6%8D%AE%E5%BA%93.md)
 * 🏷️ ️Rabbit MQ
+* * [SpringBoot使用RabbitMQ]()
 * 🏷️ ️Netty
 * 🏷️ ️ES
 ## 🎨 常用功能实现

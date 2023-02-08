@@ -5,19 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3832ec0-37e2-4350-9ed3-12f00e989e62" name="Changes" comment="修改README文件">
-      <change afterPath="$PROJECT_DIR$/learn-springboot/spring-task/async/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/spring-task/async/src/main/java/com/example/springtask/async/AsyncApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/spring-task/async/src/main/java/com/example/springtask/async/GlobalAsyncExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/spring-task/async/src/main/java/com/example/springtask/async/config/AsyncConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/spring-task/async/src/main/java/com/example/springtask/async/service/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/spring-task/async/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/spring-task/async/src/test/java/com/example/springtask/async/AsyncTaskTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-springboot/spring-task/async/异步任务.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-rabbitMQ/src/main/java/com/example/learnrabbitmq/config/BatchProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-rabbitMQ/src/main/java/com/example/learnrabbitmq/config/RepeatSendConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-rabbitMQ/src/main/java/com/example/learnrabbitmq/consumer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-rabbitMQ/src/main/java/com/example/learnrabbitmq/message/Demo01Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-rabbitMQ/src/main/java/com/example/learnrabbitmq/producer/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-rabbitMQ/src/test/java/com/example/learnrabbitmq/ProducerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-springboot/spring-task/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-springboot/spring-task/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-rabbitMQ/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-rabbitMQ/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-rabbitMQ/src/main/java/com/example/learnrabbitmq/LearnRabbitMqApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn-rabbitMQ/src/main/java/com/example/learnrabbitmq/LearnRabbitMqApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-rabbitMQ/src/main/java/com/example/learnrabbitmq/config/QueueConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn-rabbitMQ/src/main/java/com/example/learnrabbitmq/config/DirectExchangeConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-rabbitMQ/src/main/java/com/example/learnrabbitmq/consumer/NotifyConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-rabbitMQ/src/main/java/com/example/learnrabbitmq/controller/MqController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-rabbitMQ/src/main/java/com/example/learnrabbitmq/producer/NotifyProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-rabbitMQ/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/learn-rabbitMQ/RabbitMQ.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-rabbitMQ/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-rabbitMQ/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-rabbitMQ/src/test/java/com/example/learnrabbitmq/LearnRabbitMqApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +84,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
-    "spring.configuration.checksum": "37686d9c7fae8a8773c7a9f339825bd3"
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "4a4d4637eb13ea067bba79c47f4abbb8"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -107,42 +111,7 @@
       <recent name="com.example.mybatis.datasource.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AsyncTaskTest.task04">
-    <configuration name="AsyncTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="async" />
-      <option name="PACKAGE_NAME" value="com.example.springtask.async" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springtask.async.AsyncTaskTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AsyncTaskTest.task01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="async" />
-      <option name="PACKAGE_NAME" value="com.example.springtask.async" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springtask.async.AsyncTaskTest" />
-      <option name="METHOD_NAME" value="task01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AsyncTaskTest.task03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="async" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.springtask.async.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.springtask.async" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springtask.async.AsyncTaskTest" />
-      <option name="METHOD_NAME" value="task03" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ProducerTest.testRepeatSendMessage">
     <configuration name="AsyncTaskTest.task04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="async" />
       <extension name="coverage">
@@ -154,6 +123,70 @@
       <option name="PACKAGE_NAME" value="com.example.springtask.async" />
       <option name="MAIN_CLASS_NAME" value="com.example.springtask.async.AsyncTaskTest" />
       <option name="METHOD_NAME" value="task04" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTest.testBatchSendMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn-rabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.learnrabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.learnrabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.example.learnrabbitmq.ProducerTest" />
+      <option name="METHOD_NAME" value="testBatchSendMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTest.testRepeatSendMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn-rabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.learnrabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.learnrabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.example.learnrabbitmq.ProducerTest" />
+      <option name="METHOD_NAME" value="testRepeatSendMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTest.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn-rabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.learnrabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.learnrabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.example.learnrabbitmq.ProducerTest" />
+      <option name="METHOD_NAME" value="testSend" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTest.testSyncSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn-rabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.learnrabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.learnrabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.example.learnrabbitmq.ProducerTest" />
+      <option name="METHOD_NAME" value="testSyncSend" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -250,19 +283,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringTask" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-task" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springtask.SpringTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.springtask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ValidationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="validation" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.validation.ValidationApplication" />
@@ -272,11 +292,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProducerTest.testRepeatSendMessage" />
+        <item itemvalue="JUnit.ProducerTest.testBatchSendMessage" />
+        <item itemvalue="JUnit.ProducerTest.testSend" />
         <item itemvalue="JUnit.AsyncTaskTest.task04" />
-        <item itemvalue="JUnit.AsyncTaskTest.task03" />
-        <item itemvalue="JUnit.AsyncTaskTest.task01" />
-        <item itemvalue="JUnit.AsyncTaskTest" />
-        <item itemvalue="Spring Boot.SpringTask" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +332,9 @@
       <workItem from="1675412458148" duration="13249000" />
       <workItem from="1675483505909" duration="17625000" />
       <workItem from="1675579942516" duration="18710000" />
-      <workItem from="1675651340123" duration="23706000" />
+      <workItem from="1675651340123" duration="24212000" />
+      <workItem from="1675763714962" duration="6146000" />
+      <workItem from="1675820728211" duration="8090000" />
     </task>
     <task id="LOCAL-00001" summary="修改README文件">
       <created>1675079617175</created>
@@ -435,6 +456,16 @@
           <url>file://$PROJECT_DIR$/learn-springboot/shiro/src/main/java/com/example/springboot/shiro/config/OAuth2Realm.java</url>
           <line>64</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/learn-rabbitMQ/src/main/java/com/example/learnrabbitmq/producer/Producer.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/learn-rabbitMQ/src/main/java/com/example/learnrabbitmq/consumer/Consumer.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

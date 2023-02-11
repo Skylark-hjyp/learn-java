@@ -5,7 +5,7 @@
 * 🏷️ ️Java基础
 * * 集合
 * * IO
-* * 多线程
+* * [多线程]()
 * * 反射
 * * 注解
 * 🏷 ️计算机网络
@@ -25,7 +25,7 @@
 * 🏷️ ️Redis
 * * [使用Spring Data Redis操作Redis数据库](https://github.com/Tomoko-hjf/learn-java/blob/main/learn-redis/%E4%BD%BF%E7%94%A8Spring%20Redis%20Data%E6%93%8D%E4%BD%9CRedis%E6%95%B0%E6%8D%AE%E5%BA%93.md)
 * 🏷️ ️Rabbit MQ
-* * [SpringBoot使用RabbitMQ]()
+* * [SpringBoot使用RabbitMQ](https://github.com/Tomoko-hjf/learn-java/blob/main/learn-rabbitMQ/RabbitMQ.md)
 * 🏷️ ️Netty
 * 🏷️ ️ES
 ## 🎨 常用功能实现

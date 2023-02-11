@@ -5,7 +5,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/java-basic/pom.xml" />
         <option value="$PROJECT_DIR$/learn-rabbitMQ/pom.xml" />
         <option value="$PROJECT_DIR$/learn-springboot/pom.xml" />
         <option value="$PROJECT_DIR$/learn-mybatis-mp/pom.xml" />

@@ -18,10 +18,13 @@
         <module name="async" />
         <module name="learn-rabbitMQ" />
         <module name="shiro" />
-        <module name="java-basic" />
+        <module name="learn-basic" />
         <module name="validation" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java-basic" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -30,6 +33,7 @@
       <module name="distribute-session-redis" options="-parameters" />
       <module name="dynamic-datasource" options="-parameters" />
       <module name="java-basic" options="-parameters" />
+      <module name="learn-basic" options="-parameters" />
       <module name="learn-mybatis-mp" options="" />
       <module name="learn-rabbitMQ" options="-parameters" />
       <module name="learn-redis" options="-parameters" />

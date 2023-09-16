@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mybatis.mapper.GoodMapper">
+
+    <!--  悲观锁查询  -->
+    <select id="selectGoodForUpdate" parameterType="java.lang.Integer" resultType="com.example.mybatis.entity.Good">
+        select * from t_good where id = #{goodId} for update
+    </select>
+
+    <!-- 快照读查询 -->
+    <select id="selectGood" parameterType="java.lang.Integer" resultType="com.example.mybatis.entity.Good">
+        select * from t_good where id = #{goodId}
+    </select>
+
+    <!--  悲观锁更新库存  -->
+    <update id="secKillByPessimistic" parameterType="com.example.mybatis.entity.Good">
+        update t_good set count = #{count} where id = #{id}
+    </update>
+
+    <!--  乐观锁更新库存  -->
+    <update id="secKillByPositive" parameterType="com.example.mybatis.entity.Good">
+        update t_good set count = #{count}, version = version + 1 where id = #{id} and version = #{version}
+    </update>
+
+    <!--  不加锁，由数据库锁更新库存  -->
+    <update id="secKillByNoLock" parameterType="com.example.mybatis.entity.Good">
+        update t_good set count = count - 1 where id = #{id} and count - 1 >= 0
+    </update>
+
+</mapper>

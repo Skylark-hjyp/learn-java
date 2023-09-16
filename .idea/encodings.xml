@@ -2,20 +2,24 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/custom-starter/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/java-basic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-sample/dubbo-sample-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-sample/dubbo-sample-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-sample/dubbo-sample-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-sample/dubbo-sample-rest-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-sample/dubbo-sample-rest-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-sample/dubbo-sample-rest-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-sample/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/learn-basic/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/learn-mybatis-mp/dynamic-datasource/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/learn-mybatis-mp/sharding/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/learn-mybatis-mp/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/learn-mybatis-mp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learn-mybatis/dynamic-datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learn-mybatis/sharding/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/learn-mybatis/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/learn-rabbitMQ/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/learn-redis/redisson/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/learn-redis/redisson/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learn-mybatis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/learn-redis/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/learn-spring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/learn-redisson/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/learn-springboot/distribute-session-redis/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/learn-springboot/mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/learn-springboot/quartz/quartz-cluster/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/learn-springboot/quartz/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/learn-springboot/quartz/src/main/resources" charset="UTF-8" />
@@ -27,7 +31,6 @@
     <file url="file://$PROJECT_DIR$/learn-springboot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/learn-springboot/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/learn-springboot/validation/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

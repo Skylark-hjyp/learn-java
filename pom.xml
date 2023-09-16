@@ -5,19 +5,20 @@
     <modules>
         <module>custom-starter</module>
         <module>learn-springboot</module>
-        <module>learn-mybatis-mp</module>
         <module>learn-redis</module>
-        <module>learn-redis/redisson</module>
+        <module>learn-redisson</module>
         <module>learn-springboot/springsecurity</module>
         <module>learn-springboot/shiro</module>
         <module>learn-springboot/spring-task</module>
         <module>learn-basic</module>
+        <module>dubbo-sample</module>
+        <module>learn-mybatis</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.7.5</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
 
     <groupId>com.example</groupId>
@@ -27,42 +28,5 @@
 
     <name>learning-java</name>
     <description>learning-java</description>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-    </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

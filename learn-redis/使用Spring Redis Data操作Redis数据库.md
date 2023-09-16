@@ -45,6 +45,33 @@
     </dependencies>
 ```
 
+### 配置序列化方式
+因为对象需要在网络中进行传输，所以需要序列化和反序列化。`redis`默认的序列化方式是`jdk`序列化，而jdk序列化的格式是`魔数 + 版本号 + 类描述符 + 对象数据 + 引用处理`，所以如果不指定序列化的话，redis存储的key值前面会有一些二进制字节，表示类描述符和其他信息。
+错误的例子如下图所示：
+![](./images/img.png)
+为了更方便地查询，所以需要通过`@Cofiguration`注解来自定义`FastJSON`或`Jackson`作为序列化方式。
+```java
+@Configuration
+public class RedisConfig {
+    @Bean
+    public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory redisConnectionFactory) {
+        RedisTemplate<String, Object> redisTemplate = new RedisTemplate<>();
+        redisTemplate.setConnectionFactory(redisConnectionFactory);
+
+        // 使用Jackson2JsonRedisSerialize 替换默认序列化
+        Jackson2JsonRedisSerializer jackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer(Object.class);
+
+        // 设置value的序列化规则和 key的序列化规则
+        redisTemplate.setHashValueSerializer(jackson2JsonRedisSerializer);
+        redisTemplate.setHashKeySerializer(new StringRedisSerializer());
+
+        redisTemplate.setValueSerializer(jackson2JsonRedisSerializer);
+        redisTemplate.setKeySerializer(new StringRedisSerializer());
+        redisTemplate.afterPropertiesSet();
+        return redisTemplate;
+    }
+}
+```
 ### 使用RedisTemplate操作数据库
 
 ```java
@@ -53,9 +80,21 @@ public class TestRedis {
     @Autowired
     private StringRedisTemplate  stringRedisTemplate;
 
+    @Autowired
+    private RedisTemplate redisTemplate;
+
+    @Test
+    public void testSet() {
+        stringRedisTemplate.opsForValue().set("name", "jyp");
+    }
+
     @Test
     public void testAdd() {
-        stringRedisTemplate.opsForValue().set("name", "jyp");
+        redisTemplate.opsForValue().set("count", 1);
+        // 如果value是一个数，返回值可以强转为int
+        Integer res = (Integer) redisTemplate.opsForValue().get(key);
+        // increment或者decrement的返回值是Long，如果value不是数，则会抛出异常
+        Long count = redisTemplate.opsForValue().increment(key);
     }
 }
 ```

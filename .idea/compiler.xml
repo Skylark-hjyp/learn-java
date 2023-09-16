@@ -7,23 +7,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-sample-interface" />
+        <module name="learn-mybatis" />
         <module name="custom-starter" />
         <module name="learn-redis" />
-        <module name="redisson" />
+        <module name="dubbo-sample-rest-provider" />
         <module name="springsecurity" />
         <module name="quartz-cluster" />
-        <module name="dynamic-datasource" />
-        <module name="sharding" />
+        <module name="dubbo-sample-rest-consumer" />
         <module name="distribute-session-redis" />
         <module name="async" />
-        <module name="learn-rabbitMQ" />
+        <module name="dubbo-sample-rest-interface" />
         <module name="shiro" />
+        <module name="dubbo-sample-provider" />
         <module name="learn-basic" />
+        <module name="learn-redisson" />
         <module name="validation" />
+        <module name="dubbo-sample-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="java-basic" target="1.8" />
+      <module name="dynamic-datasource" target="11" />
+      <module name="learn-mybatis-mp" target="11" />
+      <module name="sharding" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -31,19 +37,20 @@
       <module name="async" options="-parameters" />
       <module name="custom-starter" options="-parameters" />
       <module name="distribute-session-redis" options="-parameters" />
+      <module name="dubbo-sample-consumer" options="-parameters" />
+      <module name="dubbo-sample-interface" options="-parameters" />
+      <module name="dubbo-sample-provider" options="-parameters" />
+      <module name="dubbo-sample-rest-consumer" options="-parameters" />
+      <module name="dubbo-sample-rest-interface" options="-parameters" />
+      <module name="dubbo-sample-rest-provider" options="-parameters" />
       <module name="dynamic-datasource" options="-parameters" />
-      <module name="java-basic" options="-parameters" />
       <module name="learn-basic" options="-parameters" />
-      <module name="learn-mybatis-mp" options="" />
-      <module name="learn-rabbitMQ" options="-parameters" />
+      <module name="learn-mybatis" options="-parameters" />
       <module name="learn-redis" options="-parameters" />
-      <module name="learn-springboot" options="" />
-      <module name="quartz" options="" />
+      <module name="learn-redisson" options="-parameters" />
       <module name="quartz-cluster" options="-parameters" />
-      <module name="redisson" options="-parameters" />
       <module name="sharding" options="-parameters" />
       <module name="shiro" options="-parameters" />
-      <module name="spring-task" options="" />
       <module name="springsecurity" options="-parameters" />
       <module name="validation" options="-parameters" />
     </option>

@@ -5,7 +5,7 @@
 * 🏷️ ️Java基础
 * * 集合
 * * IO
-* * [多线程]()
+* * [多线程](https://github.com/Tomoko-hjf/learn-java/blob/main/learn-basic/%E5%A4%9A%E7%BA%BF%E7%A8%8B.md)
 * * 反射
 * * 注解
 * 🏷 ️计算机网络

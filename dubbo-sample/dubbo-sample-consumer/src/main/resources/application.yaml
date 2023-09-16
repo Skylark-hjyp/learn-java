@@ -1,0 +1,12 @@
+dubbo:
+  application:
+    name: dubbo-springboot-demo-consumer
+  protocol:
+    name: dubbo
+    port: -1
+    serialization: fastjson2
+  registry:
+    address: zookeeper://${zookeeper.address:127.0.0.1}:2180
+
+server:
+  port: 8083

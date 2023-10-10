@@ -24,8 +24,8 @@
     </modules>
 
     <properties>
-<!--        <dubbo.version>3.3.0-beta.1-SNAPSHOT</dubbo.version>-->
-        <dubbo.version>3.2.4</dubbo.version>
+        <dubbo.version>3.3.0-beta.1-SNAPSHOT</dubbo.version>
+<!--        <dubbo.version>3.2.4</dubbo.version>-->
         <spring-boot.version>2.7.8</spring-boot.version>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>

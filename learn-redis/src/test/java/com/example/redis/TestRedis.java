@@ -1,6 +1,7 @@
 package com.example.redis;
 
 import com.example.redis.service.GoodService;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -20,8 +21,24 @@ public class TestRedis {
     }
 
     @Test
-    public void testSecKill() {
-        goodService.secKillByRedis(1);
+    public void testSecKillByRedisFun1() {
+        Assertions.assertTrue(goodService.secKillByRedisFun1(1));
+    }
+
+    @Test
+    public void testSecKillByRedisFun2() {
+        Assertions.assertTrue(goodService.secKillByRedisFun2(1));
+    }
+
+    @Test
+    public void testSecKillByRedisFun3() {
+        Assertions.assertTrue(goodService.secKillByRedisFun3(1));
+    }
+
+    @Test
+    public void testQueryGoodCount() {
+        Integer res = goodService.queryGoodCount("good-stock-1");
+        System.out.println(res);
     }
 
 }

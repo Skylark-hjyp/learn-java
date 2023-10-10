@@ -20,7 +20,7 @@ public interface RestDemoService {
     @GET
     @Path("fruit")
     @Consumes({MediaType.APPLICATION_JSON})
-    Fruit sayFruit();
+    Apple sayFruit();
 
     @GET
     @Path("apple")

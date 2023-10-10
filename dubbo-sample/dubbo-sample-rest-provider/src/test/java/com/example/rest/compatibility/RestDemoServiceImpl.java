@@ -13,7 +13,7 @@ public class RestDemoServiceImpl implements RestDemoService {
     }
 
     @Override
-    public Fruit sayFruit() {
+    public Apple sayFruit() {
         return new Apple();
     }
 
